@@ -14,13 +14,15 @@
 
 ### 1. Three-Level Authentication
 
-- **Patient Login**: 
+- **Patient Login**:
+
   - Patients can sign up, log in, and book appointments with doctors.
   - Manage appointments (view, cancel, or reschedule).
   - Secure online payment options available (cash, Stripe, Razorpay).
   - User profile with editable information (name, email, address, gender, birthday, profile picture).
 
 - **Doctor Login**:
+
   - Doctors can log in and manage appointments.
   - Dashboard displays earnings, number of patients, number of appointments, and latest bookings.
   - Update profile details (description, fees, address, availability status).
@@ -114,12 +116,14 @@
 To set up and run this project locally:
 
 1. **Clone the Repository**:
+
    ```bash
-   git clone https://github.com/your-username/appointy.git
-   cd appointy
+   git clone https://github.com/sushants2711/Doctor-Management-app
+   cd frontend
    ```
 
 2. **Install Dependencies**:
+
    ```bash
    npm install
    cd client
@@ -127,6 +131,7 @@ To set up and run this project locally:
    ```
 
 3. **Environment Variables**:
+
    - Create a `.env` file in the root directory and add the following:
      ```env
      MONGO_URI=your_mongodb_connection_string
@@ -159,7 +164,6 @@ appointy/
 ## 🤝 Contributing
 
 We welcome contributions! Please feel free to submit issues, fork the repository, and open pull requests.
-
 
 ## 🌟 Acknowledgements
 
